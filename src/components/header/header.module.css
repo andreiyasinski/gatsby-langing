@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primaryBtn {
+  background-color: #ffd166;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 20px;
+  cursor: pointer;
+}
