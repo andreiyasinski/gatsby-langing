@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descImg {
+  width: 540px;
+  height: 525px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #091133;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.63;
+  color: #6f7cb2;
+}
+
+.options {
+  display: flex;
+  margin-top: 180px;
+}
+
+.optionTitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  color: #091133;
+}
+
+.optionDescription {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #5d6970;
+}

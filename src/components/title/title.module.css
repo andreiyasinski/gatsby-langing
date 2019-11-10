@@ -1,0 +1,46 @@
+.container {
+  max-width: 539px;
+  margin-top: 200px;
+  margin-bottom: 400px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: #091133;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.67;
+  color: #505f98;
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 189px;
+  height: 26px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #111b47;
+  color: #fff;
+  border-radius: 2px;
+  border: solid 2px #111b47;
+  margin-right: 30px;
+}
+
+.btnTransparent {
+  width: 189px;
+  height: 26px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #fff;
+  color: #091133;
+  border-radius: 2px;
+  border: solid 2px #091133;
+}

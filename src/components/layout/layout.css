@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  flex-grow: 1;
+  max-width: 1100px;
+  font-family: 'Roboto', sans-serif;
+}

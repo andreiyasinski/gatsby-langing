@@ -1,12 +1,11 @@
 import React from "react";
-
 import Header from "../header/header";
-
+import "./layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div style={{paddingRight: 30, paddingLeft: 30}}>
-      <div style={{ margin: `0 auto`, maxWidth: 1100, backgroundColor: `#fff` }}>
+    <div className="container">
+      <div className="wrapper">
         <Header />
         {children}
       </div>

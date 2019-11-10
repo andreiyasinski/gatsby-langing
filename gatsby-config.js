@@ -11,5 +11,17 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+            subsets: [`latin`],
+            variants: [`400`, `500`, `700`, `900`]
+          },
+        ],
+      },
+    }
   ]
 }

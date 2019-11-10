@@ -2,6 +2,7 @@ import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
 import Navigation from "../navigation/navigation";
 import styles from "./header.module.css";
+import PrimaryBtnSmall from "../primaryBtnSmall/primaryBtnSmall";
 
 const Header = () => {
   return (
@@ -10,23 +11,24 @@ const Header = () => {
       <StaticQuery
         query={graphql`
           {
-            contentfulAsset {
-              id
-              file {
-                url
+            contentfulLogo {
+              logo {
+                file {
+                  url
+                }
               }
             }
-          }
+        }
         `}
-        render={({ contentfulAsset: { file: { url } } }) => (
+        render={({ contentfulLogo:{ logo: { file: { url } }} }) => (
           <div>
             <Link to="/">
-              <img src={url} alt="logo" width="79px" height="38px" />
+              <img src={url} alt="logo" className={styles.logo} />
             </Link>
           </div>
         )}
       />
-      <button className={styles.primaryBtn}>Purchase UI Kit</button>
+      <PrimaryBtnSmall>Purchase UI Kit</PrimaryBtnSmall>
     </div>
   )
 }

@@ -1,0 +1,11 @@
+.primaryBtnSmall {
+  background-color: #ffd166;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 30px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #091133;
+}
