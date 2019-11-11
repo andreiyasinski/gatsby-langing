@@ -3,6 +3,10 @@
   justify-content: space-between;
 }
 
+.text {
+  max-width: 540px;
+}
+
 .descImg {
   width: 540px;
   height: 525px;

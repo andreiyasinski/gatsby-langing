@@ -4,7 +4,7 @@ import styles from "./description.module.css";
 
 const Description = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <StaticQuery
         query={graphql`
           {
@@ -33,7 +33,7 @@ const Description = () => {
           }
         }) => (
           <div className={styles.container}>
-            <div>
+            <div className={styles.text}>
               <div>
                 <h1 className={styles.title}>{title}</h1>
                 <p className={styles.description}>{description}</p>

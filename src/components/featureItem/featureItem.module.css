@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.textBlock {
+  max-width: 445px;
+}
+
+.featureImg {
+  width: 540px;
+  height: 388px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #091133;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.63;
+  color: #6f7cb2;
+}
+
+.btn {
+  margin-top: 30px;
+}

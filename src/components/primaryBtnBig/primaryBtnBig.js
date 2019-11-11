@@ -9,4 +9,4 @@ const PrimaryBtnBig = ({ children }) => {
   )
 }
 
-export default primaryBtnBig;
+export default PrimaryBtnBig;
