@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  margin-bottom: 221px;
+}
+
+.container:last-child {
+  margin-bottom: 0;
 }
 
 .textBlock {

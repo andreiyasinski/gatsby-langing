@@ -1,7 +1,7 @@
 .container {
   max-width: 539px;
-  margin-top: 200px;
-  margin-bottom: 400px;
+  margin-top: 243px;
+  margin-bottom: 386px;
 }
 
 .title {
@@ -10,19 +10,19 @@
   line-height: 1.32;
   letter-spacing: 1px;
   color: #091133;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .description {
   font-size: 18px;
   line-height: 1.67;
   color: #505f98;
-  margin-bottom: 50px;
+  margin-bottom: 69px;
 }
 
 .btn {
   width: 189px;
-  height: 26px;
+  height: 36px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -35,7 +35,7 @@
 
 .btnTransparent {
   width: 189px;
-  height: 26px;
+  height: 36px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
