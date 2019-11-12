@@ -20,3 +20,7 @@
   font-weight: normal;
   line-height: 1.71;
 }
+
+.activeLink {
+  font-weight: 700;
+}

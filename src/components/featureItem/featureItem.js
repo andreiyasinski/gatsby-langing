@@ -21,7 +21,7 @@ const Featureitem = ({
       <img src={url} alt="feature-img" className={styles.featureImg} />
     </div>
     <div className={styles.textBlock}>
-      <h1 className={styles.title}>{title}</h1>
+      <h2 className={styles.title}>{title}</h2>
       <p className={styles.description}>{description}</p>
       { buttonText && <div className={styles.btn}><PrimaryBtnBig>{buttonText}</PrimaryBtnBig></div> }
     </div>

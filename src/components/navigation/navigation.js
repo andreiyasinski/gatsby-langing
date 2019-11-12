@@ -24,7 +24,13 @@ const Navigation = () => {
             <ul className={styles.list}>
               {edges.map(({ node: {id, path, title} }) => (
                 <li key={id} className={styles.listItem}>
-                  <Link to={path} className={styles.listItemLink}>{title}</Link>
+                  <Link
+                    to={path}
+                    className={styles.listItemLink}
+                    activeClassName={styles.activeLink}
+                  >
+                    {title}
+                  </Link>
                 </li>
               ))}
             </ul>
