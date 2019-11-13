@@ -4,6 +4,11 @@
   align-items: center;
   padding-top: 204px;
   padding-bottom: 212px;
+  background-image: url(../../assets/path.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 56px;
 }
 
 .title {

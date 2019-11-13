@@ -1,0 +1,28 @@
+.container {
+  padding-top: 61px;
+}
+
+.logoBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #cdd1d4;
+}
+
+.logo {
+  width: 79px;
+  height: 38px; 
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  color: #939ea4;
+}
+
+.nav {
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
