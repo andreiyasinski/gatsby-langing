@@ -5,11 +5,13 @@ import Description from "../components/description/description";
 import Features from "../components/features/features";
 import Price from "../components/price/price";
 
-export default () => <div>
-  <Layout>
-    <Title />
-    <Description />
-    <Features />
-    <Price />
-  </Layout>
-</div>
+export default () =>  {
+  return (
+    <Layout>
+      <Title />
+      <Description />
+      <Features />
+      <Price />
+    </Layout>
+  )
+}

@@ -7,14 +7,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.wrapper}>
-          <Header />
-          {children}
+        <div className={styles.content}>
+          <div className={styles.wrapper}>
+            <Header />
+            {children}
+          </div>
         </div>
-        
-        
       </div>
-      <div className={styles.footerContainer}>
+      <div className={styles.footer}>
         <div className={styles.wrapper}>
           <Footer />
         </div>
