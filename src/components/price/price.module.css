@@ -52,3 +52,14 @@
   color: #5d6970;
   margin-bottom: 9px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .title {
+    text-align: center;
+  }
+}

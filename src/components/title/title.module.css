@@ -44,3 +44,10 @@
   border-radius: 2px;
   border: solid 2px #091133;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}

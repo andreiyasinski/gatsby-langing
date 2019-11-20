@@ -17,7 +17,7 @@ const Featureitem = ({
   }
 }) => (
   <div className={styles.container}>
-    <div>
+    <div className={styles.featureImgWrapper}>
       <img src={url} alt="feature-img" className={styles.featureImg} />
     </div>
     <div className={styles.textBlock}>

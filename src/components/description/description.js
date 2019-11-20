@@ -50,7 +50,7 @@ const Description = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className={styles.descImgWrapper}>
             <img src={url} alt="desc-img" className={styles.descImg} />
           </div>
         </div>

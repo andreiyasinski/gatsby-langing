@@ -13,9 +13,13 @@
   max-width: 445px;
 }
 
-.featureImg {
+.featureImgWrapper {
   width: 540px;
-  height: 388px;
+  align-self: center;
+}
+
+.featureImg {
+  width: 100%;
 }
 
 .title {
@@ -34,4 +38,35 @@
 
 .btn {
   margin-top: 30px;
+}
+
+@media screen and (max-width: 1060px) {
+  .featureImgWrapper {
+    width: 50%;
+  }
+
+  .textBlock {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .textBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
 }

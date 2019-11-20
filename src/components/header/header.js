@@ -21,7 +21,7 @@ const Header = () => {
         }
         `}
         render={({ contentfulLogo:{ logo: { file: { url } }} }) => (
-          <div>
+          <div className={styles.logoWrapper}>
             <Link to="/">
               <img src={url} alt="logo" className={styles.logo} />
             </Link>

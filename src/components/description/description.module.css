@@ -9,9 +9,13 @@
   max-width: 540px;
 }
 
-.descImg {
+.descImgWrapper {
   width: 540px;
-  height: 525px;
+  align-self: center;
+}
+
+.descImg {
+  width: 100%;
 }
 
 .title {
@@ -45,4 +49,31 @@
   font-size: 12px;
   line-height: 1.5;
   color: #5d6970;
+}
+
+@media screen and (max-width: 1060px) {
+  .descImgWrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .title {
+    text-align: center;
+  }
+
+  .text {
+    text-align: justify;
+    max-width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .options {
+    margin-top: 50px;
+  }
 }
