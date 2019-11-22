@@ -1,9 +1,12 @@
 .container {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 18px;
-  padding-bottom: 18px;
 }
 
 .logo {
@@ -15,4 +18,79 @@
   position: absolute;
   left: calc(50% - 40px);
   top: 15px;
+}
+
+.menuBlock {
+  display: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(43, 43, 43, 0.5);
+}
+
+.menu {
+  width: 30px;
+  height: 2px;
+  background-color: rgb(43, 43, 43, 0.5);
+  display: inline-block;
+}
+
+.menuBlock .menu::before,
+.menuBlock .menu::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(43, 43, 43, 0.5);
+}
+
+.menuBlock .menu::before,
+.menuBlock .menu::after {
+  content: '';
+  display: block;
+  transition: 0.2s;
+}
+
+.menuBlock .menu::before {
+  transform: translateY(-10px);
+}
+
+.menuBlock .menu::after {
+  transform: translateY(10px);
+}
+
+.menu_btn_active .menu  {
+  background-color: transparent;
+}
+
+.menu_btn_active .menu::before {
+  transform: rotate(45deg);
+}
+
+.menu_btn_active .menu::after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .menuBlock {
+    display: inline-block;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    background-color: #f2f8ff;
+    width: 100%;
+    padding: 50px 30px;
+    transform: translateX(-100%);
+    transition: 0.2s;
+  }
+
+  .toggleMenu {
+    transform: translateX(0);
+  }
 }

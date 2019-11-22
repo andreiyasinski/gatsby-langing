@@ -24,3 +24,18 @@
 .activeLink {
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .list {
+    flex-direction: column;
+  }
+
+  .listItem {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .listItemLink {
+    font-size: 20px;
+  }
+}
