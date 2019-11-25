@@ -23,7 +23,7 @@ const Title = () => {
           </div>
         )}
       />
-      <div>
+      <div className={styles.btnBlock}>
         <button 
           className={styles.btn}
         >

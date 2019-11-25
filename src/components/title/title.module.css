@@ -47,7 +47,31 @@
 
 @media screen and (max-width: 768px) {
   .container {
+    max-width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+
+  .title {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .description {
+    text-align: justify;
+  }
+
+  .btnBlock {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn {
+    margin-right: 0;
+  }
+
+  .btn, .btnTransparent {
+    font-size: 14px;
+    width: 47%;
   }
 }

@@ -93,4 +93,12 @@
   .toggleMenu {
     transform: translateX(0);
   }
+
+  .menu {
+    margin-bottom: 4px;
+  }
+
+  .logoWrapper {
+    top: 11px;
+  }
 }
